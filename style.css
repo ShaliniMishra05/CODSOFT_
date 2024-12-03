@@ -1,60 +1,62 @@
-body,
-h1,
-h2,
-p,
-ul,
-li{
-    margin: 0;
-    padding: 0;
-}
 body{
-    font-family: Arial,  sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(198,209,216);
+    padding: 0;
 }
 header{
     background-color: #333;
-    color: #fff;
-    padding: 60px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+color: #fff;
+text-align: center;
+padding: 20px 0;
 }
-nav ul{
-    list-style: none;
-    display: flex;
+header h1{
+    margin: 0;
 }
-nav li{
-    margin-right: 20px;
-}
-nav a{
-    text-decoration: none;
-    color: #fff;
-}
-.hero{
-    background-image: url("product.jpg") ;
-    background-size:cover;
+#about1{
     text-align: center;
-    padding: 140px 0;
-    color: #fff;
+    padding: 1px 0;
 }
-.hero h2{
-    font-size: 36px;
-    margin-bottom: 20px;
+#about{
+    text-align: center;
+    padding: 20px 0;
 }
-.hero p{
-    font-size: 36px;
-    margin-bottom: 30px;
+#about img{
+    width: 90px;
+    border-radius: 30%;
 }
-.cta-button{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff6600;
-    color: #fff;
-    text-decoration: none;
+#skills{
+    text-align: left;
+    padding: 10px 0;
+}
+#skills ul{
+list-style: none;
+
+}
+
+#projects{
+    text-align: center;
+    padding: 20px 0;
+}
+.project img{
+    max-width: 100%;
     border-radius: 5px;
-    font-weight: bold;
+}
+#Resume,
+#contact{
+text-align: center;
+padding: 20px 0;
+}
+#Resume a{
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20 px;
+border-radius: 5px;
 }
 footer{
     background-color: #333;
     color: #fff;
-text-align: center;
-padding: 10px 0;}
+    text-align: center;
+    padding: 20px 0;
+}
